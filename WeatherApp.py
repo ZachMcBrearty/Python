@@ -3,7 +3,8 @@
 # the number after /en/ is the area code, it can be changed for different areas
 import feedparser # https://github.com/kurtmckee/feedparser
 import tkinter as tk # inbuilt
-url = "http://open.live.bbc.co.uk/weather/feeds/en/num/3dayforecast.rss"
+num = 0
+url = "http://open.live.bbc.co.uk/weather/feeds/en/{}/3dayforecast.rss".format(num)
 
 #feedData = parseData(feed)
 
